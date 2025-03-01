@@ -1,15 +1,19 @@
-[tool.poetry]
-name = "langchain-kr"
-version = "0.1.1"
-description = "Ultimate LangChain Tutorial written in Korean by TeddyNote."
-authors = ["teddy <teddylee777@gmail.com>"]
-license = "MIT"
+[project]
+name = "study-langchain"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "hyunolike",email = "hyunho.jang.dev@gmail.com"}
+]
 readme = "README.md"
-package-mode = false
+requires-python = ">=3.11"
+dependencies = [
+    "notebook (>=7.3.2,<8.0.0)"
+]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
-
+# 여기서부터 학습에 필요한 패키지 설치 과정
 # 언어 및 자연어 처리 관련 패키지
 langchain = "^0.3"
 langchain-core = "^0.3"
@@ -94,5 +98,5 @@ wikipedia = "^1.4.0"
 scikit-learn = "^1.5.2"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
