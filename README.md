@@ -8,7 +8,8 @@
 
 ### LLM 애플리케이션 구조 
 > [!TIP]
-> [👨‍🌾 예시 코드 바로가기](#)
+> [👨‍🌾 예시 코드 바로가기](https://github.com/hyunolike/study.langchain/tree/develop/%EC%98%88%EC%8B%9C%20%EC%BD%94%EB%93%9C/LLM%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B5%AC%ED%98%84%20%EC%98%88%EC%8B%9C%20%EC%BD%94%EB%93%9C)
+
 
 ```mermaid
 flowchart LR
@@ -74,4 +75,70 @@ flowchart LR
 3. LangServe가 LangChain 컴포넌트 실행
 4. LangChain이 LLM API 호출 및 필요시 데이터 저장소 접근
 5. 결과가 역순으로 다시 사용자에게 전달
+```
+
+#### 👨‍🌾 예시 코드
+##### 1. LangServe 백엔드 (app.py)
+```
+FastAPI 앱 생성: 웹 API 서버 설정
+문서 처리: 텍스트 문서를 로드하고 청크로 분할
+벡터 저장소: 문서 임베딩을 Chroma DB에 저장
+LangChain 체인: 질문-답변(QA) 체인 구성
+API 라우트 설정: LangServe를 사용하여 체인을 API 엔드포인트로 노출
+CORS 설정: 프론트엔드에서 API 접근 허용
+```
+
+```python
+# 체인 구성
+model = ChatOpenAI(model="gpt-4")
+chain = (
+    {"context": retriever, "question": RunnablePassthrough()}
+    | prompt
+    | model
+    | StrOutputParser()
+)
+
+# LangServe로 API 엔드포인트 추가
+add_routes(app, {"qa": chain}, path="/api")
+```
+
+##### 2. Streamlit 프론트엔드 (streamlit_app.py)
+```
+페이지 구성: 제목, 설명, 레이아웃 설정
+사용자 입력: 텍스트 입력 필드 제공
+API 호출: 백엔드 LangServe API 호출 처리
+결과 표시: AI 응답 및 메타데이터 시각화
+사용자 피드백: 반응 및 의견 수집 기능
+```
+
+
+```python
+# API 요청 전송
+response = requests.post(API_URL, headers=headers, data=payload)
+            
+if response.status_code == 200:
+    # 응답 처리
+    result = response.json()
+    
+    # 결과 표시
+    st.subheader("답변:")
+    st.write(result)
+```
+
+
+##### 3. LangChain 고급 체인 (chains.py)
+```
+고급 검색: MMR(Maximum Marginal Relevance) 검색 및 컨텍스트 압축
+대화 기억: 이전 대화 기록 유지
+스트리밍: 실시간 응답 스트리밍
+소스 추적: 응답 소스 문서 기록
+```
+
+
+```python
+# 컨텍스트 압축 검색기
+return ContextualCompressionRetriever(
+    base_compressor=compressor,
+    base_retriever=base_retriever
+)
 ```
