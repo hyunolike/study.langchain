@@ -438,3 +438,10 @@ return ContextualCompressionRetriever(
 4. 문서 처리 API (/api/documents/process)
     - 문서 업로드 및 벡터 DB 처리를 위한 인터페이스
     - 문서 메타데이터와 처리 결과 반환
+    - 
+
+---
+### 👨‍🌾 파이썬 개발 환경 준비 요약 (참고)
+![image](https://github.com/user-attachments/assets/2c8472be-eebf-4a45-b7ec-def575c78f7c)
+
+
