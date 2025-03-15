@@ -3,6 +3,15 @@
 > LLM(대규모 언어 모델)을 활용한 LLM 파이프라인 구축 및 검색 증강 생성(RAG, Retrieval-Augmented Generation) 기술 학습 <br/>
 > 검색 증강 생성 기법을 활용한 고급 AI 솔루션 개발 역량 강화
 
+---
+### 🧑🏼‍🌾 학습 일지
+- [#1. RAG 트랜드](https://github.com/hyunolike/study.langchain/blob/develop/RAG%20%ED%8A%B8%EB%9E%9C%EB%93%9C.md)
+- [#2. LLM & RAG 시스템 아키텍처 예](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/LLM-RAG%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
+
+
+---
+
+
 ### LLM 개발 요약
 ![image](https://github.com/user-attachments/assets/43276fde-398c-411b-ad14-edae93cce26e)
 
