@@ -8,6 +8,7 @@
 - [#1. RAG 트랜드](https://github.com/hyunolike/study.langchain/blob/develop/RAG%20%ED%8A%B8%EB%9E%9C%EB%93%9C.md)
 - [#2. LLM & RAG 시스템 아키텍처 예](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/LLM-RAG%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
 - [#3. MCP (Model Context Protocal)](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/MCP.md)
+- [#4 머신러닝 학습방법](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95.md)
 
 
 ---
