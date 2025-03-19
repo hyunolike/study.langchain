@@ -1,3 +1,6 @@
 [submodule "study.project.langchain"]
 	path = study.project.langchain
 	url = git@github.com:hh-jang-kr/study.project.langchain.git
+[submodule "study.langchain.special-lecture"]
+	path = study.langchain.special-lecture
+	url = git@github.com:hyunolike/study.langchain.special-lecture.git
