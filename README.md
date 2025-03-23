@@ -10,7 +10,7 @@
 - [#3. MCP (Model Context Protocal)](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/MCP.md)
 - [#4 머신러닝 학습방법](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95.md)
 - [#5 머신러닝 평가지표](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C.md)
-
+- [#6 AWS Bedrock, SageMaker]()
 
 ---
 
