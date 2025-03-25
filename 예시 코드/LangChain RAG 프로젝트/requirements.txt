@@ -1,0 +1,16 @@
+# requirements.txt - 필요 패키지
+streamlit==1.28.0
+langchain==0.0.325
+langchain-openai==0.0.2
+openai==1.6.0
+faiss-cpu==1.7.4
+tiktoken==0.5.1
+pypdf==3.15.1
+python-dotenv==1.0.0
+plotly==5.18.0
+pandas==2.1.1
+pydantic==1.10.9
+unstructured==0.10.30
+docx2txt==0.8
+pinecone-client==2.2.4
+chromadb==0.4.18
