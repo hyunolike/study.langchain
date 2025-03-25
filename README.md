@@ -12,6 +12,7 @@
 - [#5 머신러닝 평가지표](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C.md)
 - [#6 AWS Bedrock, SageMaker](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/AWS-bedrock-sagemaker.md)
 - [#7 LLM 프로젝트 개발 순서](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EB%B0%9C-%EC%88%9C%EC%84%9C.md)
+- [#8 🧩 모듈식 개발을 위한 프로젝트 구조](https://github.com/hyunolike/study.langchain/blob/develop/%ED%95%99%EC%8A%B5-%EC%9D%BC%EC%A7%80/%ED%8C%80%ED%98%91%EC%97%85%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%AA%A8%EB%93%88%EC%8B%9D%EA%B0%9C%EB%B0%9C.md)
 
 ---
 
